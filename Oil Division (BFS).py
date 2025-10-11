@@ -61,6 +61,7 @@ def solve_oil_division():
     return None
 
 def print_solution(solution):
+    """This works to show the solution path."""
     if not solution:
         print("No solution found!")
         return
@@ -90,6 +91,8 @@ def print_solution(solution):
                 
                 bucket_names = ["Busket1", "Busket2", "Busket3"]
                 print(f"      → Pour {amount} from {bucket_names[from_bucket]} to {bucket_names[to_bucket]}")
+
+
 
 # Solve and display the solution
 solution = solve_oil_division()
